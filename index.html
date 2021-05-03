@@ -1,17 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Buy movies at an affordable price with MovieBox"/>
     <title>MovieBox</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Pattaya|Poppins:400,500&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="img/icon/favicon.ico" />
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <div class="container">
+      <header class="header">
+        <nav class="navigation">
+          <a id="logo" href="#"><h1>MovieBox</h1></a>
+          <ul class="navigation__list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#releases">New Releases</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <h2>Watch your favorite movies.</h2>
+          <h3>
+            Buy movies at an affordable price with MovieBox<br />Click to go
+            bellow.
+          </h3>
+          <a href="#highlights" class="main-button">Go</a>
+        </section>
+        <section id="highlights" class="highlights">
+          <div class="highlights__info">
+            <div class="highlights__info__description">
+              <h2>Highlights today</h2>
+              <p>Be sure not to miss these reviews today.</p>
+            </div>
+            <div class="highlights__info__links">
+              <a href="#">Author</a>
+              <a href="#">Featured</a>
+              <a href="#">New</a>
+            </div>
+          </div>
+          <div class="movie__cards">
+            <div class="movie__card">
+              <span class="card__rating rating">9,4</span>
+              <img
+                src="img/movies/green-mile.jpg"
+                alt="movie-1"
+                class="card__picture"
+              />
+
+              <h3>The Green Mile</h3>
+              <div class="card__genre">
+                <p>Drama, Horror, Mystery</p>
+              </div>
+            </div>
+            <div class="movie__card">
+              <span class="card__rating rating">8,9</span>
+              <img
+                src="img/movies/joker.jpg"
+                alt="movie-1"
+                class="card__picture"
+              />
+
+              <h3>Joker</h3>
+              <div class="card__genre">
+                <p>Thriller, Drama</p>
+              </div>
+            </div>
+            <div class="movie__card">
+              <span class="card__rating rating">8,0</span>
+              <img
+                src="img/movies/platform.jpg"
+                alt="movie-1"
+                class="card__picture"
+              />
+
+              <h3>The Platform</h3>
+              <div class="card__genre">
+                <p>Thriller, Suspense</p>
+              </div>
+            </div>
+            <div class="movie__card">
+              <span class="card__rating rating">8,2</span>
+              <img
+                src="img/movies/dunkirk.jpg"
+                alt="movie-1"
+                class="card__picture"
+              />
+
+              <h3>Dunkirk</h3>
+              <div class="card__genre">
+                <p>Action, History</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="releases" id="releases">
+          <div class="preview">
+            <div class="preview__info">
+              <span class="preview__rating rating">7,9</span>
+              <h3 class="preview__heading">Silent Hill</h3>
+              <p class="preview__genre">Thriller</p>
+              <p class="preview__description">
+                The film takes place in the near future, with Earth in the grip
+                of The Blight, an airborne disease that causes food crops to
+                turn to grey-brown powder. It rolls and billows across the land,
+                piling up around houses and cars like the dust-drifts in Andrei
+                Tarkovsky’s Stalker, another film in which the characters slip
+                between time’s cogs.
+              </p>
+            </div>
+          </div>
+          <div class="new-releases">
+            <div class="new-releases__info">
+              <h2 class="new-releases__heading">New Releases</h2>
+              <p class="new-releases__text">
+                Our most recently released movies.
+              </p>
+            </div>
+            <div class="releases__cards">
+              <div class="movie__card releases__card--left">
+                <span class="card__rating rating">7,8</span>
+                <img
+                  src="img/movies/tenet.jpg"
+                  alt="movie-1"
+                  class="card__picture releases__card__picture--left"
+                />
+
+                <h3>Tenet</h3>
+                <div class="card__genre">
+                  <p>Action</p>
+                </div>
+              </div>
+              <div class="movie__cards releases__cards--right">
+
+                <div class="movie__card releases__card">
+                  <span class="card__rating rating">7,5</span>
+                  <img
+                    src="img/movies/haunting.jpg"
+                    alt="movie-1"
+                    class="card__picture releases__card__picture"
+                  />
+
+                  <h3>The Haunting</h3>
+                  <div class="card__genre">
+                    <p>Drama, Horror</p>
+                  </div>
+                </div>
+                <div class="movie__card releases__card">
+                  <span class="card__rating rating">7,1</span>
+                  <img
+                    src="img/movies/devilallthetime.jpg"
+                    alt="movie-1"
+                    class="card__picture releases__card__picture"
+                  />
+
+                  <h3>The Devil All the Time</h3>
+                  <div class="card__genre">
+                    <p>Thriller, Drama</p>
+                  </div>
+                </div>
+                <div class="movie__card releases__card">
+                  <span class="card__rating rating">7,9</span>
+                  <img
+                    src="img/movies/gentlemen.jpg"
+                    alt="movie-1"
+                    class="card__picture releases__card__picture"
+                  />
+
+                  <h3>The Gentlemen</h3>
+                  <div class="card__genre">
+                    <p>Comedy, Crime</p>
+                  </div>
+                </div>
+                <div class="movie__card releases__card">
+                  <span class="card__rating rating">7,3</span>
+                  <img
+                    src="img/movies/doctorsleep.jpg"
+                    alt="movie-1"
+                    class="card__picture releases__card__picture"
+                  />
+
+                  <h3>Doctor Sleep</h3>
+                  <div class="card__genre">
+                    <p>Thriller, Horror</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="search" id="search">
+          <p class="search__info">
+            Looking for something else? Search more movies:
+          </p>
+          <input class="search__input" type="text" placeholder='Try "Avatar"' />
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column footer__columns--1">
+            <h3 class="footer__column__heading">Information</h3>
+            <ul class="footer__columns__list">
+              <li><a href="#">Image Licenses</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="#">Our Authors</a></li>
+            </ul>
+          </div>
+          <div class="footer__column footer__columns--2">
+            <h3 class="footer__column__heading">Discover</h3>
+            <ul class="footer__columns__list">
+              <li><a href="#">All Movies</a></li>
+              <li><a href="#">Author Picks</a></li>
+              <li><a href="#">New Movies</a></li>
+            </ul>
+          </div>
+          <div class="footer__column footer__columns--3">
+            <h3 class="footer__column__heading">Community</h3>
+            <ul class="footer__columns__list">
+              <li><a href="https://www.facebook.com/denis.klemeshov.7/">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="https://www.instagram.com/denis_klemeshov/">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__info">
+          <p>Hope you enjoy my page &#128516;</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
