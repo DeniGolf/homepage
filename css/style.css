@@ -484,6 +484,7 @@ textarea {
 
   .footer__columns {
     width: 80%;
+    min-height: 80vh;
     margin: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -565,13 +566,6 @@ textarea {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .movie__cards {
-    justify-content: center;
-    text-align: center;
-  }
-}
-
 @media screen and (max-width: 440px) {
   .movie__cards {
     justify-content: center;
@@ -583,10 +577,26 @@ textarea {
   }
 
   .navigation__list li a {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: inline-block;
     width: 100%;
     padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .movie__cards {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .movie__card {
+    width: 25rem;
+  }
+
+  .movie__card:nth-child(1),
+  .movie__card:nth-child(3) {
+    margin-right: 0;
   }
 }
 
